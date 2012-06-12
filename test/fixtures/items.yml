@@ -1,0 +1,39 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  num_iid: 1
+  title: MyString
+  nick: MyString
+  type: 
+  desc: MyText
+  cid: 1
+  props: MyString
+  pic_url: MyString
+  price: 9.99
+  list_time: 2012-06-12 22:04:32
+  delist_time: 2012-06-12 22:04:32
+  location_city: MyString
+  location_state: MyString
+  seller_credit_score: 1
+  click_url: MyString
+  shop_click_url: MyString
+  pic_url: MyString
+
+two:
+  num_iid: 1
+  title: MyString
+  nick: MyString
+  type: 
+  desc: MyText
+  cid: 1
+  props: MyString
+  pic_url: MyString
+  price: 9.99
+  list_time: 2012-06-12 22:04:32
+  delist_time: 2012-06-12 22:04:32
+  location_city: MyString
+  location_state: MyString
+  seller_credit_score: 1
+  click_url: MyString
+  shop_click_url: MyString
+  pic_url: MyString

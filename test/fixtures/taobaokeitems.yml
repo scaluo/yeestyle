@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  num_iid: 1
+  nick: MyString
+  title: MyString
+  price: 9.99
+  item_location: MyString
+  seller_credit_score: 1
+  click_url: MyString
+  shop_click_url: MyString
+  pic_url: MyString
+
+two:
+  num_iid: 1
+  nick: MyString
+  title: MyString
+  price: 9.99
+  item_location: MyString
+  seller_credit_score: 1
+  click_url: MyString
+  shop_click_url: MyString
+  pic_url: MyString
