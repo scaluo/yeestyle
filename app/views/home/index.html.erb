@@ -1,0 +1,9 @@
+<h1>这是一个亲子导购社区</h1>
+<p>即将登场，敬请期待</p>
+<div>
+  <h2>亲子服装</h2>
+  <%@items1.each do |item|%>
+    <%=link_to item.title,item%>
+    <%=image_tag item.pic_url%>
+  <%end%>
+</div>

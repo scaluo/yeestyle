@@ -1,0 +1,54 @@
+<%=form_for([:admin,@item]) do |f|%>
+<div>
+  <%=f.label :num_iid %><br/>
+  <%=f.text_field :num_iid%>
+</div>
+<div>
+  <%=f.label :title%><br/>
+  <%=f.text_field :title%>
+</div>
+<div>
+  <%=f.label :nick%><br/>
+  <%=f.text_field :nick%>
+</div>
+<div>
+  <%=f.label :cid%><br/>
+  <%=f.text_field :cid%>
+</div>
+<div>
+  <%=f.label :pic_url%><br/>
+  <%=f.text_field :pic_url%>
+</div>
+<div>
+  <%=f.label :price%><br/>
+  <%=f.text_field :price%>
+</div>
+<div>
+  <%=f.label :list_time%><br/>
+  <%=f.date_select :list_time%>
+</div>
+<div>
+  <%=f.label :delist_time%><br/>
+  <%=f.date_select :delist_time%>
+</div>
+<div>
+  <%=f.label :location_city%><br/>
+  <%=f.text_field :location_city%>
+</div>
+<div>
+  <%=f.label :location_state%><br/>
+  <%=f.text_field :location_state%>
+</div>
+
+<div>
+  <%=f.label :click_url%><br/>
+  <%=f.text_field :click_url%>
+</div>
+<div>
+  <%=f.label :shop_click_url%><br/>
+  <%=f.text_field :shop_click_url%>
+</div>
+<div>
+	<%=f.submit%>
+</div>
+<% end %>
